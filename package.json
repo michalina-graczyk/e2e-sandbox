@@ -1,0 +1,28 @@
+{
+  "name": "e2e-sandbox",
+  "version": "1.0.0",
+  "description": "E2E sandbox",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalina-graczyk/e2e-sandbox.git"
+  },
+  "author": "Michalina Graczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michalina-graczyk/e2e-sandbox/issues"
+  },
+  "homepage": "https://github.com/michalina-graczyk/e2e-sandbox#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.43.0",
+    "cucumber": "^5.0.2",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-cucumber-framework": "^2.2.7",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.0"
+  }
+}
